@@ -1,0 +1,65 @@
+RYU CODES
+git clone git://github.com/mininet/mininet
+cd mininet
+git tag  
+git checkout -b mininet-2.3.0 2.3.0 
+mininet/util/install.sh
+
+sudo apt-get update
+sudo apt-get install git -y
+
+sudo apt-get install python-setuptools python-pip -y
+sudo apt-get install python-eventlet python-routes python-webob python-paramiko -y
+
+sudo pip install tinyrpc ovs oslo.config msgpack-python eventlet enum34
+sudo pip install eventlet --upgrade
+
+git clone git://github.com/osrg/ryu.git
+cd ryu/; sudo python ./setup.py install
+sudo apt-get update
+sudo apt-get install git -y
+
+sudo apt-get install python-setuptools python-pip -y
+sudo apt-get install python-eventlet python-routes python-webob python-paramiko -y
+
+sudo pip install tinyrpc ovs oslo.config msgpack-python eventlet enum34
+sudo pip install eventlet --upgrade
+
+git clone git://github.com/osrg/ryu.git
+cd ryu/; sudo python ./setup.py install
+sudo apt-get update
+sudo apt-get install git -y
+
+sudo apt-get install python-setuptools python-pip -y
+sudo apt-get install python-eventlet python-routes python-webob python-paramiko -y
+
+sudo pip install tinyrpc ovs oslo.config msgpack-python eventlet enum34
+sudo pip install eventlet --upgrade
+
+git clone git://github.com/osrg/ryu.git
+cd ryu/; sudo python ./setup.py install
+sudo apt-get update
+sudo apt-get install git -y
+
+sudo apt-get install python-setuptools python-pip -y
+sudo apt-get install python-eventlet python-routes python-webob python-paramiko -y
+
+sudo pip install tinyrpc ovs oslo.config msgpack-python eventlet enum34
+sudo pip install eventlet --upgrade
+
+git clone git://github.com/osrg/ryu.git
+cd ryu/; sudo python ./setup.py install
+pip install eventlet ==0.30.2
+sudo apt-get update
+sudo apt-get install git -y
+
+sudo apt-get install python-setuptools python-pip -y
+sudo apt-get install python-eventlet python-routes python-webob python-paramiko -y
+
+sudo pip install tinyrpc ovs oslo.config msgpack-python eventlet enum34
+sudo pip install eventlet --upgrade
+
+git clone git://github.com/osrg/ryu.git
+cd ryu/; sudo python ./setup.py install
+pip install eventlet==0.30.2
+
